@@ -4,6 +4,7 @@ import { Router, RouterModule, Routes } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExcelFieldComponent } from './shared/components/excel-field.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -15,6 +16,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    ExcelFieldComponent
   ],
   imports: [
     BrowserModule,
