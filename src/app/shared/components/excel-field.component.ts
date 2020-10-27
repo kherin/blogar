@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./excel-field.component.css']
 })
 export class ExcelFieldComponent implements OnInit {
+  value: string = 'foo';
 
   constructor() { }
 
