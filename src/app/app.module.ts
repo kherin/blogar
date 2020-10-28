@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExcelFieldComponent } from './shared/components/excel-field.component';
 
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { ClipboardModule } from '@angular/cdk/clipboard';
@@ -26,6 +26,7 @@ const routes: Routes = [
     HttpClientModule,
     ReactiveFormsModule,
     ClipboardModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   exports: [RouterModule],

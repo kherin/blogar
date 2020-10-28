@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ExcelFieldComponent implements OnInit {
   value: string = 'foo';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
