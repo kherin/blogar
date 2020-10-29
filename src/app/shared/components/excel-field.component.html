@@ -1,6 +1,7 @@
 <textarea
   id="excel-field"
   [(ngModel)]="value"
+  (paste)="onPaste($event)"
   rows="4"
   columns="50"
 ></textarea>

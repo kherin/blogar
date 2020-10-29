@@ -14,4 +14,8 @@ export class ExcelFieldComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onPaste(event) {
+    console.log('event: ', event);
+  }
+
 }
