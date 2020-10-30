@@ -15,7 +15,7 @@ export class ExcelFieldComponent implements OnInit {
   }
 
   onPaste(event) {
-    console.log('event: ', event);
+    this.value += event.clipboardData.getData('text');
   }
 
 }
