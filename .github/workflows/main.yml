@@ -4,8 +4,8 @@ jobs:
     runs-on: ubuntu-latest
     name: perform annotation
     steps:
-    - name: 
-      id: hello
+    - name: annotation action step
+      id: annotation
       uses: kherin/review-app-action@v1
       with:
         annotation-title: 'Blogar Review App'
