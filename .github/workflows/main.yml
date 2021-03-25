@@ -1,0 +1,14 @@
+'on':
+  - pull_request
+jobs:
+  annotate_pull_request:
+    runs-on: ubuntu-latest
+    name: perform annotation
+    steps:
+      - name: annotation action step
+        id: annotation
+        uses: kherin/review-app-action@v1.1.5
+        with:
+          annotation-title: Blogar Review App with Code Sandbox
+          annotation-url: 'https://githubbox.com/'
+          token: '${{ secrets.GITHUB_TOKEN }}'
