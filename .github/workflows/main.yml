@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: annotation action step
         id: annotation
-        uses: kherin/review-app-action@v1.1.3
+        uses: kherin/review-app-action@v1.1.4
         with:
           annotation-title: Blogar Review App with Code Sandbox
           annotation-url: "https://githubbox.com/"
