@@ -1,5 +1,5 @@
-'on':
-  - pull_request
+"on":
+  - push
 jobs:
   annotate_pull_request:
     runs-on: ubuntu-latest
@@ -10,5 +10,5 @@ jobs:
         uses: kherin/review-app-action@v1.1.0
         with:
           annotation-title: Blogar Review App with Code Sandbox
-          annotation-url: 'https://githubbox.com/'
+          annotation-url: "https://githubbox.com/"
           token: ${{ secrets.GITHUB_TOKEN }}
